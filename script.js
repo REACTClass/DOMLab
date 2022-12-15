@@ -9,7 +9,7 @@ let mainEl = document.querySelector("main"); //Selecting the main element and ca
 mainEl.style.backgroundColor = "var(--main-bg)";
 
 mainEl.innerHTML = "<h1>SEI Rocks!</h1>";
-mainEL.classList.add = ("flex-ctr");
+mainEl.classList.add("flex-ctr");
 
 let topMenuE1 = document.getElementById("top-menu");
 
@@ -17,10 +17,10 @@ topMenuEl.style.height = "100%";
 
 topMenuEl.style.backgroundColor = "var(--top-menu-bg)";
 
-topMenuE1.classList.add("flex-around");
+topMenuE1.classList.add("flex-around"); //Add a class of flex-around
 
-function menu(arr, menu1) {
-    arr.forEach((element) => {
+function menu(array, menu1) {
+    array.forEach((element) => {
 
         let newAnchor = document.createElement('a');
 
